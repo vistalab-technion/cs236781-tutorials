@@ -1,0 +1,15 @@
+name: cs236605-tutorials
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.6
+  - ipython
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - scipy
+  - numpy
+  - scikit-learn
+  - pandas
+  - cython
