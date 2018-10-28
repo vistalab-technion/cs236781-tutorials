@@ -2,8 +2,10 @@ name: cs236605-tutorials
 channels:
   - defaults
   - conda-forge
+  - pytorch
 dependencies:
   - python=3.6
+  - pytorch
   - ipython
   - jupyter
   - jupyterlab=0.35
@@ -13,4 +15,5 @@ dependencies:
   - pandas
   - cython
   - pip:
+    - torchvision
     - matplotlib~=3.0
