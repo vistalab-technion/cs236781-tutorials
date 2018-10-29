@@ -8,3 +8,6 @@ After a new tutorial is added, you should run `conda env update` from the repo
 directory to update your dependencies since each new tutorial might add
 ones.
 
+You can also run the tutorial notebooks directly in your browser by clicking the
+**launch binder** button above.
+
