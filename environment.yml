@@ -4,11 +4,11 @@ channels:
   - conda-forge
   - pytorch
 dependencies:
-  - python=3.6
-  - pytorch
+  - python=3.7
+  - pytorch=0.4.1
   - ipython
   - jupyter
-  - jupyterlab=0.35
+  - jupyterlab=0.34
   - scipy
   - numpy=1.15
   - scikit-learn
