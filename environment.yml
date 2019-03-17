@@ -5,12 +5,12 @@ channels:
   - pytorch
 dependencies:
   - python=3.7
-  - pytorch=0.4.1
+  - pytorch>1.0.0
   - ipython
   - jupyter
-  - jupyterlab=0.34
+  - jupyterlab
   - scipy
-  - numpy=1.15
+  - numpy
   - scikit-learn
   - pandas
   - cython
