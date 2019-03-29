@@ -5,7 +5,8 @@ channels:
   - pytorch
 dependencies:
   - python=3.7
-  - pytorch>1.0.0
+  - pytorch==1.0.1
+  - torchvision==0.2.1
   - ipython
   - jupyter
   - jupyterlab
@@ -17,6 +18,5 @@ dependencies:
   - rise
   - numba
   - pip:
-    - torchvision
     - matplotlib~=3.0
     - keras
