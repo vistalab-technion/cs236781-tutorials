@@ -17,6 +17,11 @@ dependencies:
   - cython
   - rise
   - numba
+  - spacy
+  - nltk
   - pip:
+    - torchtext
+      # spaCy en model
+    - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz
     - matplotlib~=3.0
     - keras
