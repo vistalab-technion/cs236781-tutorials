@@ -7,6 +7,7 @@ dependencies:
   - python=3.7
   - pytorch==1.0.1
   - torchvision==0.2.1
+  - matplotlib
   - ipython
   - jupyter
   - jupyterlab
@@ -19,9 +20,14 @@ dependencies:
   - numba
   - spacy
   - nltk
+  - ffmpeg>4.1
+  - x264
+  - tensorboardX
   - pip:
     - torchtext
+    - tensorflow
+    - tensorflow-tensorboard
       # spaCy en model
     - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz
-    - matplotlib~=3.0
-    - keras
+    - gym
+    - 'gym[atari]'
