@@ -23,6 +23,9 @@ dependencies:
   - ffmpeg>4.1
   - x264
   - tensorboardX
+  - opencv
+  - freetype>=2.10
+  - pip
   - pip:
     - torchtext
     - tensorflow
