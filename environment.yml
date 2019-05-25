@@ -3,6 +3,7 @@ channels:
   - defaults
   - conda-forge
   - pytorch
+  - dglteam
 dependencies:
   - python=3.7
   - pytorch==1.0.1
@@ -27,6 +28,7 @@ dependencies:
   - opencv
   - freetype>=2.10
   - pip
+  - dgl
   - pip:
     - torchtext
     - tensorflow
@@ -34,4 +36,4 @@ dependencies:
       # spaCy en model
     - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz
     - gym
-    - 'gym[atari]'
+    - gym[atari]
