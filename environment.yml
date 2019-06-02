@@ -36,4 +36,5 @@ dependencies:
       # spaCy en model
     - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz
     - gym
-    - gym[atari]
+    - atari-py
+    - box2d-py
