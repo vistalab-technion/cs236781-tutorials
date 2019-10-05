@@ -1,6 +1,6 @@
-# CS236605 Tutorials
+# CS236781 Tutorials
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/vistalab-technion/cs236605-tutorials/master)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/vistalab-technion/cs236781-tutorials/master)
 
 This repo contains the code and notebooks shown during course tutorials.
 
