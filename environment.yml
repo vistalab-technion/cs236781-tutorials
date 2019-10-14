@@ -1,4 +1,4 @@
-name: cs236781-tutorials
+name: cs236781
 channels:
   - defaults
   - conda-forge
@@ -6,9 +6,9 @@ channels:
   - dglteam
 dependencies:
   - python=3.7
-  - pytorch==1.0.1
-  - torchvision==0.2.1
-  - cudatoolkit==9.0
+  - pytorch=1.3.0
+  - cudatoolkit
+  - torchvision
   - matplotlib
   - ipython
   - jupyter
@@ -27,14 +27,12 @@ dependencies:
   - tensorboardX
   - opencv
   - freetype>=2.10
-  - pip
   - dgl
+  - pip
   - pip:
     - torchtext
-    - tensorflow
-    - tensorflow-tensorboard
       # spaCy en model
-    - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz
+      # - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz
     - gym
     - atari-py
     - box2d-py
