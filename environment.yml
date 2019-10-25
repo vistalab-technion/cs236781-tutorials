@@ -9,6 +9,7 @@ dependencies:
   - pytorch=1.3.0
   - cudatoolkit
   - torchvision
+  - torchtext
   - matplotlib
   - ipython
   - jupyter
@@ -23,16 +24,13 @@ dependencies:
   - spacy
   - nltk
   - ffmpeg>4.1
-  - x264
-  - tensorboardX
   - opencv
   - freetype>=2.10
   - dgl
   - pip
   - pip:
-    - torchtext
       # spaCy en model
-      # - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz
+    - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz
     - gym
     - atari-py
     - box2d-py
