@@ -7,11 +7,11 @@ channels:
 dependencies:
   - python=3.7
   - pytorch=1.3.0
+  - ipython>=7.9
   - cudatoolkit
   - torchvision
   - torchtext
   - matplotlib
-  - ipython
   - jupyter
   - jupyterlab
   - scipy
@@ -27,6 +27,7 @@ dependencies:
   - opencv
   - freetype>=2.10
   - dgl
+  - graphviz
   - pip
   - pip:
       # spaCy en model
@@ -34,3 +35,4 @@ dependencies:
     - gym
     - atari-py
     - box2d-py
+    - torchviz
