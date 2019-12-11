@@ -30,8 +30,9 @@ dependencies:
   - graphviz
   - pip
   - pip:
-      # spaCy en model
-    - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz
+      # spaCy models
+    - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz
+    - https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-2.2.5/de_core_news_sm-2.2.5.tar.gz
     - gym
     - atari-py
     - box2d-py
