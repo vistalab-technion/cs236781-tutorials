@@ -8,9 +8,10 @@ dependencies:
   - python=3.7
   - pytorch=1.3.0
   - ipython>=7.9
+  - torchvision=0.4.1
+  - pillow<7.0 # version 7 breaks torchvision 0.4.2 and earlier
+  - torchtext=0.4.0
   - cudatoolkit
-  - torchvision
-  - torchtext
   - matplotlib
   - jupyter
   - jupyterlab
@@ -21,13 +22,14 @@ dependencies:
   - cython
   - rise
   - numba
-  - spacy
+  - spacy=2.2.2
   - nltk
   - ffmpeg>4.1
   - opencv
   - freetype>=2.10
   - dgl
   - graphviz
+  - swig
   - pip
   - pip:
       # spaCy models
