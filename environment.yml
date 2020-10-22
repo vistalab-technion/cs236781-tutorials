@@ -29,6 +29,7 @@ dependencies:
   - freetype>=2.10
   - dgl
   - graphviz
+  - python-graphviz # needed for graphviz on windows
   - swig
   - pip
   - pip:
