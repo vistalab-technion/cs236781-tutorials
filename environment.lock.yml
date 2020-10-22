@@ -1,4 +1,4 @@
-name: temp_cs236781
+name: cs236781-tutorials
 channels:
   - pytorch
   - dglteam
@@ -203,5 +203,4 @@ dependencies:
     - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
     - https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-2.3.0/de_core_news_sm-2.3.0.tar.gz
     - torchviz==0.0.1
-prefix: /Users/aviv/miniconda3/envs/temp_cs236781
 

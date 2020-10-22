@@ -1,4 +1,4 @@
-name: cs236781
+name: cs236781-tutorials
 channels:
   - defaults
   - conda-forge
