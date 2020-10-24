@@ -20,12 +20,12 @@ button below.
    conda env create -f environment.yml
    ```
 
-   This will install all the necessary packages into a new conda virtual environment named `cs236781`.
+   This will install all the necessary packages into a new conda virtual environment named `cs236781-tutorials`.
 
 3. Activate the new environment by running
 
    ```shell
-   conda activate cs236781
+   conda activate cs236781-tutorials
    ```
 
 4. Optionally, execute the `run-all.sh` script to run all notebook and test that
