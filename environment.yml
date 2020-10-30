@@ -1,42 +1,51 @@
 name: cs236781-tutorials
 channels:
+  - pytorch
   - defaults
   - conda-forge
-  - pytorch
-  - dglteam
 dependencies:
-  - python=3.8.6
-  - pytorch=1.6.0
-  - ipython
-  - torchvision
-  - torchtext
-  - pillow
+  - cmake # for compiling atari-py
   - cudatoolkit
-  - matplotlib
+  - cython
+  - ffmpeg=4.2.2 # version 4.3 doesn't work with x264 through gym.Monitor
+  - freetype
+  - graphviz
+  - ipython
   - jupyter
   - jupyterlab
-  - scipy
-  - numpy
-  - scikit-learn
-  - pandas
-  - cython
-  - rise
+  - matplotlib
+  - networkx
+  - nltk # for torchtext SST dataset
+  - nodejs
   - numba
-  - spacy
-  - nltk
-  - ffmpeg
+  - numpy
   - opencv
-  - freetype
-  - dgl
-  - graphviz
-  - python-graphviz # needed for graphviz on windows
-  - swig
-  - gym
-  - gym-atari
-  - gym-box2d
+  - pandas
+  - pillow
+  - pytest
+  - pytest-cov
+  - pytest-xdist
+  - python-graphviz # for graphviz on Windows
+  - python=3.8.6
+  - pytorch=1.6.0
+  - rise
+  - scikit-learn
+  - scipy
+  - spacy-model-en_core_web_sm=2.3
+  - spacy=2.3
+  - swig # for box2d on Windows
+  - torchtext
+  - torchvision
+  - tqdm
+  - x264
   - pip
   - pip:
-      # spaCy models
-    - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
-    - https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-2.3.0/de_core_news_sm-2.3.0.tar.gz
     - torchviz
+    - nbmerge
+    - gym
+    - atari-py
+    - box2d-py
+    # There's no conda package for this version yet.
+    - https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-2.3.0/de_core_news_sm-2.3.0.tar.gz
+
+
