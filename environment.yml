@@ -1,12 +1,10 @@
 name: cs236781-tutorials
 channels:
+  - conda-forge
   - pytorch
   - defaults
-  - conda-forge
 dependencies:
-  - cmake # for compiling atari-py
-  - cudatoolkit
-  - cython
+  # common
   - ffmpeg=4.2.2 # version 4.3 doesn't work with x264 through gym.Monitor
   - freetype
   - graphviz
@@ -22,12 +20,12 @@ dependencies:
   - opencv
   - pandas
   - pillow
+  - pip
   - pytest
   - pytest-cov
   - pytest-xdist
   - python-graphviz # for graphviz on Windows
-  - python=3.8.6
-  - pytorch=1.6.0
+  - python=3.8.12
   - rise
   - scikit-learn
   - scipy
@@ -38,14 +36,15 @@ dependencies:
   - torchvision
   - tqdm
   - x264
-  - pip
   - pip:
     - torchviz
     - nbmerge
-    - gym
-    - atari-py
-    - box2d-py
+    - gym[atari,accept-rom-license,box2d]==0.21.0
     # There's no conda package for this version yet.
     - https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-2.3.0/de_core_news_sm-2.3.0.tar.gz
-
+  # pytorch
+  - pytorch=1.6
+  - cudatoolkit
+  - torchvision
+  - torchtext
 
