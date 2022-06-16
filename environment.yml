@@ -44,7 +44,7 @@ dependencies:
     - https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-2.3.0/de_core_news_sm-2.3.0.tar.gz
   # pytorch
   - pytorch=1.6
+  - torchvision=0.7
   - cudatoolkit
-  - torchvision
   - torchtext
 
