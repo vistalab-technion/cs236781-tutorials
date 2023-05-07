@@ -28,10 +28,6 @@ dependencies:
   - python=3.8.12
   - rise
   - scikit-learn
-  - scipy
-  - spacy-model-en_core_web_sm=2.3
-  - spacy=2.3
-  - swig # for box2d on Windows
   - torchtext
   - torchvision
   - tqdm
@@ -39,10 +35,7 @@ dependencies:
   - pip:
     - torchviz
     - nbmerge
-    - gym[atari,accept-rom-license,box2d]==0.21.0
-    # There's no conda package for this version yet.
-    - https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-2.3.0/de_core_news_sm-2.3.0.tar.gz
-  # pytorch
+   # pytorch
   - pytorch=1.6
   - torchvision=0.7
   - cudatoolkit
