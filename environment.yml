@@ -20,6 +20,6 @@ dependencies:
   - tqdm
   # pytorch
   - pytorch
-  - cudatoolkit
+  #- cudatoolkit
   - torchvision
   - torchtext
