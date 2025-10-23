@@ -23,3 +23,6 @@ dependencies:
   - torchvision
   - torchtext
   - torchviz
+  - pip:
+      - python-graphviz==0.20.1
+      - torchviz==0.0.2
