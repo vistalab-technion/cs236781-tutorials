@@ -22,4 +22,4 @@ dependencies:
   #- cudatoolkit
   - torchvision
   - torchtext
-  - python-graphviz
+  - torchviz
